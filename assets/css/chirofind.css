@@ -68,15 +68,15 @@
 :root {
   --chirofind-font: "Kumbh Sans", sans-serif;
   --chirofind-font-two: "Nunito", sans-serif;
-  --chirofind-gray: #67687A;
+  --chirofind-gray: #677a76;
   --chirofind-gray-rgb: 103, 104, 122;
   --chirofind-white: #ffffff;
   --chirofind-white-rgb: 255, 255, 255;
-  --chirofind-base: #134CB3;
+  --chirofind-base: #13b343;
   --chirofind-base-rgb: 19, 76, 179;
   --chirofind-black: #101A29;
   --chirofind-black-rgb: 16, 26, 41;
-  --chirofind-primary: #F3F7FB;
+  --chirofind-primary: #c5fce7;
   --chirofind-primary-rgb: 243, 247, 251;
 }
 
@@ -465,8 +465,8 @@ ul {
 }
 
 .preloader span:last-child {
+  /* animation-delay: -0.9s; */
   animation-delay: -0.9s;
-  -webkit-animation-delay: -0.9s;
 }
 
 @keyframes preloader {

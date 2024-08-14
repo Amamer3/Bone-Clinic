@@ -26,7 +26,7 @@ Clone the repository:
 
 # bash
 Copy code
-git clone https://github.com/Amamer3/Clinic-Site.git
+git clone https://github.com/Amamer3/Bone-Clinic.git
 
 
 

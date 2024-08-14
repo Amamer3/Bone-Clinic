@@ -282,14 +282,7 @@
         margin-left: 0;
     }
 
-    .portfolio-details__category {
-        padding: 32px 15px 32px;
-    }
-
-    .portfolio-details__category-list {
-        gap: 10px;
-    }
-
+    
     .portfolio-details__patient-box-right {
         margin-left: 0;
         margin-top: 0;
@@ -335,23 +328,6 @@
         display: none;
     }
 
-    .checkout-page__left {
-        margin-right: 0;
-    }
-
-    .checkout-page__sidebar {
-        margin-top: 55px;
-    }
-
-    .contact-page__bottom-left {
-        margin-right: 0;
-    }
-
-    .contact-page__bottom-right {
-        margin-left: 0;
-        margin-top: 60px;
-    }
-
     .team-one__shape-1 {
         display: none;
     }
@@ -381,7 +357,7 @@
 --------------------------------------------------------------*/
 
 
-/*
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .about-one__left {
         max-width: 600px;
@@ -882,14 +858,14 @@
         margin-left: 0;
     }
 }
-*/
+
 
 /*--------------------------------------------------------------
 # Main Menu All Responsice Css
 --------------------------------------------------------------*/
 
 
-/*
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-menu__top-inner {
         padding: 11px 30px 11px;
@@ -1079,13 +1055,13 @@
     }
 }
 
-*/
+
 /*--------------------------------------------------------------
 # Others All Responsice Css
 --------------------------------------------------------------*/
 
 
-/*
+
 @media screen and (max-width: 1600px) {
     .process-one__shape-2 {
         left: 80px;
@@ -1992,105 +1968,7 @@
         margin-bottom: 60px;
     }
 
-    .shop-page__sidebar {
-        margin-bottom: 60px;
-    }
-
-    .shop-page__top {
-        flex-direction: column;
-    }
-
-    .shop-page__top-text {
-        margin-bottom: 15px;
-    }
-
-    .shop-page__pagination .pg-pagination li {
-        display: block;
-        margin-right: 0;
-    }
-
-    .shop-page__pagination .pg-pagination li+li {
-        margin-top: 10px;
-    }
-
-    .shop-details__top-left {
-        margin-right: 0;
-        margin-bottom: 60px;
-    }
-
-    .shop-details__quantity-btn-and-heart {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .shop-details__btn-box {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .shop-details__main-tab-box-two .tab-buttons .tab-btn {
-        display: block;
-        width: 215px;
-    }
-
-    .shop-details__main-tab-box-two .tab-buttons .tab-btn+.tab-btn {
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    .comments-area .comment {
-        flex-direction: column;
-    }
-
-    .review-one__content {
-        padding-left: 0;
-        padding-top: 20px;
-    }
-
-    .review-one__content-top {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .review-one__content-top .reply-btn {
-        margin-top: 10px;
-    }
-
-    .review-one__content-bottom p br {
-        display: none;
-    }
-
-    .related-product__title {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .cart__coupon-code-and-btn-box {
-        flex-direction: column;
-        align-items: baseline;
-    }
-
-    .cart__btn-box {
-        margin-top: 15px;
-    }
-
-    .cart__order-summary-list li {
-        gap: 10px;
-    }
-
-    .checkout-page__left {
-        margin-right: 0;
-    }
-
-    .checkout-page__sidebar {
-        margin-top: 55px;
-    }
-
-    .contact-page__single {
-        padding: 40px 20px 33px;
-    }
+    
 
     .contact-page__bottom-left {
         margin-right: 0;
@@ -2322,4 +2200,4 @@
     .site-logo {
         width: 120px;
     }
-}*/
+}
