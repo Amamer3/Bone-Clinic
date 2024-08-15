@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?orkqwr');
+  src: url('fonts/icomoon.eot?orkqwr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?orkqwr') format('truetype'),
+    url('fonts/icomoon.woff?orkqwr') format('woff'),
+    url('fonts/icomoon.svg?orkqwr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+.icon-check-3:before {
+  content: "\e93c";
+}
+
+.icon-satisfied:before {
+  content: "\e93d";
+}
+
+.icon-acupuncture:before {
+  content: "\e900";
+}
+
+.icon-andle-dabble:before {
+  content: "\e901";
+}
+
+.icon-angle-dabble-down:before {
+  content: "\e902";
+}
+
+.icon-angle-left:before {
+  content: "\e903";
+}
+
+.icon-angle-right:before {
+  content: "\e904";
+}
+
+.icon-arrow-down:before {
+  content: "\e905";
+}
+
+.icon-arrow-left:before {
+  content: "\e906";
+}
+
+.icon-arrow-right:before {
+  content: "\e907";
+}
+
+.icon-arrow-up:before {
+  content: "\e908";
+}
+
+.icon-arrow-up-2:before {
+  content: "\e909";
+}
+
+.icon-award:before {
+  content: "\e90a";
+}
+
+.icon-award-two:before {
+  content: "\e90b";
+}
+
+.icon-book:before {
+  content: "\e90c";
+}
+
+.icon-calender:before {
+  content: "\e90d";
+}
+
+.icon-call:before {
+  content: "\e90e";
+}
+
+.icon-call-2:before {
+  content: "\e90f";
+}
+
+.icon-cart:before {
+  content: "\e910";
+}
+
+.icon-check:before {
+  content: "\e911";
+}
+
+.icon-check-2:before {
+  content: "\e912";
+}
+
+.icon-chiropractic:before {
+  content: "\e913";
+}
+
+.icon-chiropractic-2:before {
+  content: "\e914";
+}
+
+.icon-chiropractic-3:before {
+  content: "\e915";
+}
+
+.icon-clock:before {
+  content: "\e916";
+}
+
+.icon-comments:before {
+  content: "\e917";
+}
+
+.icon-email:before {
+  content: "\e918";
+}
+
+.icon-envolop:before {
+  content: "\e919";
+}
+
+.icon-expert:before {
+  content: "\e91a";
+}
+
+.icon-experts:before {
+  content: "\e91b";
+}
+
+.icon-facebook:before {
+  content: "\e91c";
+}
+
+.icon-finished:before {
+  content: "\e91d";
+}
+
+.icon-hand-care:before {
+  content: "\e91e";
+}
+
+.icon-heart:before {
+  content: "\e91f";
+}
+
+.icon-instagram:before {
+  content: "\e920";
+}
+
+.icon-laser:before {
+  content: "\e921";
+}
+
+.icon-leg:before {
+  content: "\e922";
+}
+
+.icon-like:before {
+  content: "\e923";
+}
+
+.icon-link-in:before {
+  content: "\e924";
+}
+
+.icon-location:before {
+  content: "\e925";
+}
+
+.icon-menu:before {
+  content: "\e926";
+}
+
+.icon-next:before {
+  content: "\e927";
+}
+
+.icon-phone:before {
+  content: "\e928";
+}
+
+.icon-physical:before {
+  content: "\e929";
+}
+
+.icon-pin:before {
+  content: "\e92a";
+}
+
+.icon-pinterest:before {
+  content: "\e92b";
+}
+
+.icon-play:before {
+  content: "\e92c";
+}
+
+.icon-plus:before {
+  content: "\e92d";
+}
+
+.icon-prev:before {
+  content: "\e92e";
+}
+
+.icon-quote:before {
+  content: "\e92f";
+}
+
+.icon-right-arrow:before {
+  content: "\e930";
+}
+
+.icon-search:before {
+  content: "\e931";
+}
+
+.icon-select:before {
+  content: "\e932";
+}
+
+.icon-sports-injury:before {
+  content: "\e933";
+}
+
+.icon-star:before {
+  content: "\e934";
+}
+
+.icon-star-2:before {
+  content: "\e935";
+}
+
+.icon-team:before {
+  content: "\e936";
+}
+
+.icon-trained:before {
+  content: "\e937";
+}
+
+.icon-trusted:before {
+  content: "\e938";
+}
+
+.icon-twitter:before {
+  content: "\e939";
+}
+
+.icon-user:before {
+  content: "\e93a";
+}
+
+.icon-youtube:before {
+  content: "\e93b";
+}
