@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Home </title>
+    <title> Welcome - Bone Setting Clinic </title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
     <meta name="description" content=" Bone Setting Clinic " />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -45,10 +47,10 @@
     </div>
     <!-- preloader end  -->
 
-    <header class="main-header-two">
+    <header  class="main-header-two">
     
     <!-- Main Navbar -->
-    <nav class="main-menu main-menu-two">
+    <nav id="index" class="main-menu main-menu-two">
         <div class="main-menu-two__wrapper">
             <div class="main-menu-two__wrapper-inner">
                 <div class="site-logo main-menu-two__logo">
@@ -57,36 +59,18 @@
                 <div class="main-menu-two__menu-box">
                     <div class="main-menu-two__main-menu-box">
                         <ul class="main-menu__list">
-                            <li class="#">
-                                <a href="index.html">Home </a>
+                            <li class="">
+                                <a href="#index">Home </a>
                                 
                             </li>
-                            <li>
-                                <a href="about.html">About</a>
+                            <li >
+                                <a href="#about-us">About</a>
                             </li>
                             <li class="#">
                                 <a href="services1.html">Services</a>
                                 
                             </li>
-                            <li class="dropdown">
-                                <a href="#">Pages</a>
-                                <ul>
-                                    <li><a href="team1.html">Team V-1</a></li>
-                                    <li><a href="appointment.html">Appointment</a></li>
-                                    <li><a href="faq.html">Faq</a></li>
-                                    <li><a href="404.html">404 Error</a></li>
-                                </ul>
-                            </li>
-
-                            <!-- Blog Nav -->
-                            <li class="dropdown">
-                                <a href="#">Blog</a>
-                                <ul>
-                                    <li><a href="blog.html">Blog Gird</a></li>
-                                    <li><a href="blog-list.html">Blog List</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
+                            
                             <li>
                                 <a href="contact.html">Contact</a>
                             </li>
@@ -114,21 +98,23 @@
     </nav>
     </header>
 
+    <!-- End of Header -->
+
     <div class="stricky-header stricked-menu main-menu main-menu-two">
         <div class="sticky-header__content"></div>
     </div><!-- /.stricky-header -->
 
     <!--Banner One Start -->
-    <section class="banner-one">
-        <div class="banner-one__shape-1 float-bob-y">
+    <section id="index" class="banner-one">
+        <!-- <div class="banner-one__shape-1 float-bob-y">
             <img src="assets/images/shapes/banner-one-shape-1.png" alt="">
-        </div>
-        <div class="banner-one__shape-2 float-bob-x">
+        </div> -->
+        <!-- <div class="banner-one__shape-2 float-bob-x">
             <img src="assets/images/shapes/banner-one-shape-2.png" alt="">
-        </div>
-        <div class="banner-one__shape-3 img-bounce">
+        </div> -->
+        <!-- <div class="banner-one__shape-3 img-bounce">
             <img src="assets/images/shapes/banner-one-shape-3.png" alt="">
-        </div>
+        </div> -->
         <div class="banner-one__shape-4 float-bob-y">
             <img src="assets/images/shapes/banner-one-shape-4.png" alt="">
         </div>
@@ -151,7 +137,7 @@
                         </div>
 
                         <!-- satisfied-patient images -->
-                        <div class="banner-one__satisfied-patient">
+                        <!-- <div class="banner-one__satisfied-patient">
                             <ul class="banner-one__satisfied-patient-list list-unstyled">
                                 <li>
                                     <div class="banner-one__satisfied-patient-img">
@@ -188,7 +174,7 @@
                                 </div>
                                 <p class="banner-one__satisfied-patient-title">satisfied Patient</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End satisfied-patient img -->
                     </div>
                 </div>
@@ -271,7 +257,7 @@
                             <p class="appointment-one__left-content-text">We denounce with righteous is indignation
                                 and dislike and demoralized by the charms of pleasure the.</p>
                             <div class="appointment-one__btn-box">
-                                <a href="appointment.html" class="appointment-one__btn thm-btn">Appointment Now<span
+                                <a href="#appointment" class="appointment-one__btn thm-btn">Appointment Now<span
                                         class="icon-right-arrow"></span></a>
                             </div>
                         </div>
@@ -305,12 +291,12 @@
 
     <!--Services Two Start -->
     <section class="services-two">
-        <div class="services-two__shape-1 float-bob-x">
+        <!-- <div class="services-two__shape-1 float-bob-x">
             <img src="assets/images/shapes/services-two-shape-1.png" alt="">
-        </div>
-        <div class="services-two__shape-2 float-bob-y">
+        </div> -->
+        <!-- <div class="services-two__shape-2 float-bob-y">
             <img src="assets/images/shapes/services-two-shape-2.png" alt="">
-        </div>
+        </div> -->
         <div class="services-two__shape-3 img-bounce"></div>
         <div class="container">
             <div class="section-title text-center">
@@ -393,20 +379,20 @@
     <!--Services Two End -->
 
     <!--About Two Start -->
-    <section class="about-two">
+    <section id="about-us" class="about-two">
         <div class="about-two__shape-2"></div>
         <div class="about-two__shape-3"></div>
         <div class="about-two__shape-4"></div>
         <div class="about-two__shape-5"></div>
-        <div class="about-two__shape-6">
+        <!-- <div class="about-two__shape-6">
             <img src="assets/images/shapes/about-two-shape-6.png" alt="">
-        </div>
+        </div> -->
         <div class="about-two__shape-7 float-bob-y">
             <img src="assets/images/shapes/about-two-shape-7.png" alt="">
         </div>
-        <div class="about-two__shape-8 float-bob-x">
+        <!-- <div class="about-two__shape-8 float-bob-x">
             <img src="assets/images/shapes/about-two-shape-8.png" alt="">
-        </div>
+        </div> -->
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -474,9 +460,9 @@
                                 <a href="about.html" class="about-two__btn thm-btn">About Us<span
                                         class="icon-right-arrow"></span></a>
                             </div>
-                            <div class="about-two__sing">
+                            <!-- <div class="about-two__sing">
                                 <img src="assets/images/resources/about-two-sing.png" alt="">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -550,12 +536,12 @@
 
     <!--Process One Start -->
     <section class="process-one">
-        <div class="process-one__shape-1 float-bob-y">
+        <!-- <div class="process-one__shape-1 float-bob-y">
             <img src="assets/images/shapes/process-one-shape-1.png" alt="">
         </div>
         <div class="process-one__shape-2 float-bob-x">
             <img src="assets/images/shapes/process-one-shape-2.png" alt="">
-        </div>
+        </div> -->
         <div class="process-one__shape-3 zoominout"></div>
         <div class="container">
             <div class="section-title text-center">
@@ -741,24 +727,29 @@
     </section>
     <!--Testimonial Two End -->
 
+
+
+
+
     <!--Team Two Start -->
     <section class="team-two">
         <div class="team-two__shape-1"></div>
         <div class="team-two__shape-2"></div>
         <div class="team-two__shape-3"></div>
         <div class="team-two__shape-4"></div>
-        <div class="team-two__shape-5 zoominout">
+        <!-- <div class="team-two__shape-5 zoominout">
             <img src="assets/images/shapes/team-two-shape-5.png" alt="">
-        </div>
-        <div class="team-two__shape-6 zoominout">
+        </div> -->
+        <!-- <div class="team-two__shape-6 zoominout">
             <img src="assets/images/shapes/team-two-shape-6.png" alt="">
-        </div>
+        </div> -->
         <div class="team-two__shape-7 float-bob-x">
             <img src="assets/images/shapes/team-two-shape-7.png" alt="">
         </div>
         <div class="team-two__shape-8 float-bob-y">
             <img src="assets/images/shapes/team-two-shape-8.png" alt="">
         </div>
+
         <div class="container">
             <div class="section-title text-center">
                 <div class="section-title__tagline-box">
@@ -833,15 +824,18 @@
     </section>
     <!--Team Two End -->
 
+
+
     <!--Appointment Two Start -->
-    <section class="appointment-two">
+    <!-- <section id="appointment" class="appointment-two">
         <div class="appointment-two__shape-3">
             <img src="assets/images/shapes/appointment-two-shape-3.png" alt="">
         </div>
         <div class="appointment-two__shape-4 float-bob-y">
             <img src="assets/images/shapes/appointment-two-shape-4.png" alt="">
-        </div>
-        <div class="appointment-two__shape-5 zoominout"></div>
+        </div> -->
+        
+      <!----  <div class="appointment-two__shape-5 zoominout"></div>
         <div class="container">
             <div class="appointment-two__inner">
                 <div class="appointment-two__shape-1"></div>
@@ -859,6 +853,9 @@
                                 </div>
                                 <h2 class="section-title__title">Book Now An Appointment</h2>
                             </div>
+
+
+                            
                             <form class="contact-form-validated appointment-two__form" action="assets/inc/sendemail.php"
                                 method="post" novalidate="novalidate">
                                 <div class="row">
@@ -907,16 +904,18 @@
                                     </div>
                                 </div>
                             </form>
+
                             <div class="result"></div>
                         </div>
                     </div>
                 </div>
+
                 <div class="appointment-two__img">
                     <img src="assets/images/resources/appointment-two-img-1.png" alt="">
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--Appointment Two End -->
 
     <!--Site Footer Start-->
@@ -1129,6 +1128,9 @@
 
     <!-- template js -->
     <script src="assets/js/chirofind.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
