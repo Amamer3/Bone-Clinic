@@ -44,3 +44,29 @@ If you wish to contribute to this project, please follow these steps:
 2. Create a new branch for your feature/bugfix.
 3. Commit your changes and push the branch to your fork.
 4. Submit a pull request with a detailed explanation of your changes.
+
+
+
+project-root/
+│
+├── public/                      # Frontend assets (HTML, CSS, JavaScript)
+│   ├── index.html               # Main HTML file
+│   ├── css/                     # CSS folder for styles
+│   │   └── styles.css           # Main CSS file
+│   ├── js/                      # JavaScript folder for frontend scripts
+│   │   └── appointment.js       # JavaScript handling form submission
+│   └── images/                  # Image assets
+│       └── logo.png             # Example image file
+│
+├── server/                      # Backend code and server setup
+│   ├── app.js                   # Main Node.js server file
+│   ├── routes/                  # Folder for API routes
+│   │   └── appointmentRoutes.js # Route handling form submissions
+│   └── config/                  # Configuration files
+│       └── mailConfig.js        # Nodemailer email configuration
+│
+├── node_modules/                # Node.js dependencies (created by npm)
+│
+├── .env                         # Environment variables (e.g., email credentials)
+├── package.json                 # Project dependencies and scripts
+└── README.md                    # Project documentation
