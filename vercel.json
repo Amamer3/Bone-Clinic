@@ -4,6 +4,12 @@
     {
       "src": "/api/(.*)",
       "dest": "api/app.js"
+    },
+    
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.html"
     }
+    
   ]
 }
