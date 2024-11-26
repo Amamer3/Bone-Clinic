@@ -56,7 +56,7 @@ router.post('/submit-appointment', async (req, res) => {
     // Generate styled email for the owner
     const ownerEmailContent = {
       body: {
-        name: 'Owner',
+        name: ' Doctor Ken',
         intro: 'You have received a new appointment!',
         table: {
           data: [
