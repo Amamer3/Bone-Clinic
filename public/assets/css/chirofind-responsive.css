@@ -738,6 +738,8 @@
         display: block;
     }
 
+    
+
     .main-slider-two__content {
         margin-left: 0;
     }
@@ -856,7 +858,9 @@
 @media only screen and (min-width: 1200px) and (max-width: 1450px) {
     .banner-one__inner {
         margin-left: 0;
+       
     }
+    
 }
 
 

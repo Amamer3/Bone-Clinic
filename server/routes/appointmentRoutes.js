@@ -13,7 +13,7 @@ router.post('/submit-appointment', async (req, res) => {
 
   // Validate input
   if (!name || !email || !phone || !date || !serviceType) {
-    return res.status(400).json({ message: 'All fields are required.' });
+    return res.status(400).json({ message: 'All fields are required.' }); 
   }
 
   // Configure email transporter
@@ -95,3 +95,48 @@ router.post('/submit-appointment', async (req, res) => {
 });
 
 export default router;
+
+
+
+//depolying to Hosting 
+
+// import express from 'express';
+// import nodemailer from 'nodemailer';
+// import generateAppointmentEmail from '../config/emailTemplates.js';
+
+// const router = express.Router();
+
+// router.post('/submit-appointment', async (req, res) => {
+//   const { name, email, phone, date, serviceType } = req.body;
+
+//   // Email transporter setup
+//   const transporter = nodemailer.createTransport({
+//     host: process.env.SMTP_HOST,
+//     port: process.env.SMTP_PORT || 587,
+//     secure: false, // Use true for 465, false for other ports
+//     auth: {
+//       user: process.env.EMAIL_USER,
+//       pass: process.env.EMAIL_PASS,
+//     },
+//   });
+
+//   const emailBody = generateAppointmentEmail({ name, email, phone, date, serviceType });
+
+//   const mailOptions = {
+//     from: process.env.EMAIL_USER,
+//     to: email,
+//     subject: 'Appointment Confirmation',
+//     html: emailBody,
+//   };
+
+//   try {
+//     await transporter.sendMail(mailOptions);
+//     res.status(200).json({ message: 'Appointment request sent successfully.' });
+//   } catch (error) {
+//     console.error('Error sending email:', error);
+//     res.status(500).json({ message: 'Error sending email.' });
+//   }
+// });
+
+// export default router;
+

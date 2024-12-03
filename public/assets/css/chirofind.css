@@ -3295,7 +3295,7 @@ ul {
 
 .banner-one__content {
   position: relative;
-  display: none;
+  display: block;
 }
 
 .banner-one__sub-title-box {

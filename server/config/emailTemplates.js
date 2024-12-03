@@ -38,3 +38,45 @@ const generateAppointmentEmail = ({ name, email, phone, date, serviceType }) => 
 };
 
 export default generateAppointmentEmail;
+
+
+//depolying to Hosting 
+
+// import Mailgen from 'mailgen';
+
+// const mailGenerator = new Mailgen({
+//   theme: 'default',
+//   product: {
+//     name: 'Bone Clinic',
+//     link: process.env.WEBSITE_URL || 'http://localhost:5500', // Replace with deployed URL
+//   },
+// });
+
+// const generateAppointmentEmail = ({ name, email, phone, date, serviceType }) => {
+//   return mailGenerator.generate({
+//     body: {
+//       name: name,
+//       intro: `Thank you, ${name}, for booking an appointment with Bone Clinic!`,
+//       table: {
+//         data: [
+//           { item: 'Name', description: name },
+//           { item: 'Email', description: email },
+//           { item: 'Phone', description: phone },
+//           { item: 'Appointment Date', description: date },
+//           { item: 'Service Type', description: serviceType },
+//         ],
+//       },
+//       action: {
+//         instructions: 'To reschedule or cancel your appointment, click below:',
+//         button: {
+//           color: '#22BC66', // optional, default is blue
+//           text: 'Manage Appointment',
+//           link: `${process.env.WEBSITE_URL || 'http://localhost:5500'}/manage-appointment`,
+//         },
+//       },
+//       outro: 'Looking forward to seeing you!',
+//     },
+//   });
+// };
+
+// export default generateAppointmentEmail;
