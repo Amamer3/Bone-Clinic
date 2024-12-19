@@ -3,7 +3,7 @@ import Mailgen from 'mailgen';
 const mailGenerator = new Mailgen({
   theme: 'default',
   product: {
-    name: 'Bone Clinic',
+    name: 'SolidForm Clinic',
     link: 'https://boneclinic.com',
     
   },
@@ -15,7 +15,7 @@ const generateAppointmentEmail = ({ name, email, phone, date, serviceType }) => 
   return mailGenerator.generate({
     body: {
       name: name || 'Valued Patient', // Fallback name
-      intro: `Thank you, ${name || 'Valued Patient'}, for booking an appointment with Bone Clinic!`,
+      intro: `Thank you, ${name || 'Valued Patient'}, for booking an appointment with SolidForm Clinic!`,
       table: {
         data: [
           { item: 'Name', description: name || 'N/A' },
@@ -33,7 +33,7 @@ const generateAppointmentEmail = ({ name, email, phone, date, serviceType }) => 
           link: manageAppointmentLink,
         },
       },
-      outro: 'We look forward to seeing you! If you have any questions, feel free to contact us at support@boneclinic.com.',
+      outro: 'We look forward to seeing you! If you have any questions, feel free to contact us at support@SolidForm Clinic.com.',
     },
   });
 };

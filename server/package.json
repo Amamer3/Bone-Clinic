@@ -5,8 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node server/app.js",
-    "dev": "nodemon server/app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "helmet": "^8.0.0",
     "mailgen": "^2.0.28",
     "nodemailer": "^6.9.16",
+    "validator": "^13.12.0",
     "winston": "^3.17.0"
   },
   "devDependencies": {
