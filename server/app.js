@@ -1,7 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
-// import { VercelRequest, VercelResponse } from '@vercel/node';
 import appointmentRoutes from './routes/appointmentRoutes.js';
 
 const app = express();
@@ -19,7 +18,8 @@ app.use(express.static('public'));
 // Routes
 app.use('/api/appointment', appointmentRoutes);
 
-// Export the serverless function
-export default (req, res) => {
-  app(req, res); // Forward requests to Express
-};
+// Listener for Render
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});

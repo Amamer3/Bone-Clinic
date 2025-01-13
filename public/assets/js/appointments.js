@@ -8,9 +8,9 @@ appointmentForm.addEventListener('submit', async (event) => {
   const formData = {
     name: document.querySelector('input[name="name"]').value.trim(),
     email: document.querySelector('input[name="email"]').value.trim(),
-    phone: document.querySelector('input[name="Phone"]').value.trim(),
+    phone: document.querySelector('input[name="phone"]').value.trim(), // Fixed name attribute case
     date: document.querySelector('input[name="date"]').value.trim(),
-    serviceType: document.querySelector('select.selectmenu').value.trim()
+    serviceType: document.querySelector('select.selectmenu').value.trim(),
   };
 
   // Validate form data
@@ -25,17 +25,18 @@ appointmentForm.addEventListener('submit', async (event) => {
 
   // Send the data to the Node.js backend
   try {
-    const response = await fetch('http://localhost:5500/api/appointment/submit-appointment', {
+    const response = await fetch(`${process.env.API_URL}/api/appointment/submit-appointment`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData)
+      body: JSON.stringify(formData),
     });
 
     if (response.ok) {
+      const responseData = await response.json();
       alert('Appointment request sent successfully!');
       appointmentForm.reset();
     } else {
-      const errorData = await response.json();
+      const errorData = await response.json().catch((err) => { return { message: 'Failed to parse error message' }; });
       console.error('Error:', errorData);
       alert(errorData.message || 'Failed to send appointment request. Please try again.');
     }
